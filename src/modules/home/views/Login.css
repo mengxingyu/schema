@@ -1,0 +1,36 @@
+.container{
+  width: 340px;
+  height: 420px;
+  padding: 20px 30px 30px 30px;
+  margin: auto 0;
+  position: absolute;
+  top: 0; bottom: 0; right:500px;
+  border-radius: 10px;
+  background: #fdfdfd;
+  border: black 2px;
+
+}
+.background{
+  position: absolute;
+  left: 0;right: 0;top: 0;bottom: 0;
+  background: url("../../../assets/2.jpg") ;
+  background-size:cover
+}
+.picture{
+  width: 100px;
+  height: 100px;
+  background: url("../../../assets/3.jpg")  ;
+  background-size: 100%;
+  opacity:0.8;
+}
+.titles div{
+  float: left;
+}
+.titles .text{
+
+  height: 100px;
+  font-size: 55px;
+  text-align: center;
+
+}
+

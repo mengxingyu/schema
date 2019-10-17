@@ -1,0 +1,51 @@
+Arguments: 
+  F:\node\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add antd
+
+PATH: 
+  F:\react_lab\schema\node_modules\.bin;F:\app\52613\product\11.2.0\dbhome_1\bin;G:\Anaconda;G:\Anaconda\Library\mingw-w64\bin;G:\Anaconda\Library\usr\bin;G:\Anaconda\Library\bin;G:\Anaconda\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;G:\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\52613\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\TempState\Downloads\jdk-11.0.2_windows-x64_bin.zip\jdk-11.0.2;C:\WINDOWS\System32\OpenSSH\;G:\CMake\bin;C:\Program Files\dotnet\;F:\JDK;G:\Git\cmd;F:\maven\apache-maven-3.6.0\bin;G:\AndroidSDK\platform-tools;F:\JRE;F:\JRE\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;F:\app\52613\product\11.2.0\dbhome_1;C:\Program Files\TortoiseSVN\bin;F:\node\;C:\Program Files (x86)\Yarn\bin\;F:\tortoise_git\bin;C:\Users\52613\AppData\Roaming\npm;F:\华资课程实操练习题\赛姬框架\standandalone-sinogear-generator\bin;;F:\Microsoft VS Code\bin;C:\Users\52613\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\52613\AppData\Local\Yarn\Cache\v4\npm-pify-4.0.1-4b2cd25c50d598735c50292224fd8c6df41e3231\node_modules\pify\index.js' -> 'F:\react_lab\schema\node_modules\af-webpack\node_modules\pify\index.js'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
